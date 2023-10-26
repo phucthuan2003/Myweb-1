@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 767px){
+.main-option{
+    flex-direction: row;
+}
+}
+@media screen and (min-width: 767px) {
+    .option-left{
+        width: 17%; 
+    }
+}
+
+

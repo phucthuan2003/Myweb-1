@@ -26,6 +26,7 @@ header {
 }
 .head{
   background-color: rgb(237, 28, 36);
+  /*fix bug*/
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -266,14 +267,18 @@ select {
   color: #333;
   font-weight: 600;
 }
+.option-part{
+  padding-top: 140px;
+}
 .option{
   background-color: white;
   line-height: 2;
   border: 1px solid white;
-  margin-left: 170px;
-  margin-right: 72%; 
+  margin-left: 180px;
+  margin-right: 71.7%; 
   padding-top: 18px;
   padding-bottom: 100%;
+  border: 1px solid white;
 }
 .option li {
   list-style: none;
@@ -289,7 +294,6 @@ select {
 .option li a:hover {
     color: red;
 }
-  
 .button-one .fas{
     margin-left: 30px;
 }
@@ -297,6 +301,7 @@ select {
     margin-left: 104px;
 }
 .option-one{
+  /* padding-top: 60px; */
   max-width: 60%;
   position: absolute;
   left: 28.5%;

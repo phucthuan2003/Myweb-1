@@ -1,0 +1,140 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    background-color: #eff8ff;
+}
+img{
+    width: 139px;
+    height: 45px;
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.login{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    height: 100%;
+    background-color: white;
+}
+.login .material-icons {
+    font-size: 20px;
+    color: grey;
+}
+.icon1{
+    position: relative;
+    top: 28px;
+} 
+.icon2{
+    position: relative;
+    top: 28px;
+    left: 180px;
+}
+.login a{
+    text-decoration: none;
+}
+.body{
+    text-align: center;
+    margin-top: 80px;
+}
+.body h4{
+    margin-bottom: 60px;
+}
+input {
+    width: 350px;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.form1{
+    margin-bottom: 40px;
+}
+.form2{
+    margin-bottom: 40px;
+}
+.sigin {
+    width: 350px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.sceen{
+    margin-top: 20px;
+}
+.or{
+    border-top: 1px solid #ccc;
+    position: relative;
+    justify-content: center;
+    width: 350px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.orText{
+    position: absolute;
+    top: -12px;
+    width: 56px;
+    font-size: 15px;
+    background-color: white;
+}
+.form3{
+    width: 350px;
+    height: 50px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.form3:hover{
+    background-color: #ccc;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .login {
+        width: 100%; 
+        margin: 0 auto; 
+        left: 0;
+        right: 0;
+    }
+    img {
+        width: 100px;
+        height: 32px;
+        top: 30px;
+        left: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    .form1 .form2 .sigin .form3 {
+        width: 90%; 
+    }
+    .sigin {
+        margin-top: 20px;
+    }
+
+    .body h4 {
+        margin-bottom: 40px;
+    }
+    .icon2{
+        margin-left: 15px;
+    }
+}
+
+
+
+
+
+
+
+
